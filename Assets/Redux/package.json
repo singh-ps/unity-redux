@@ -20,7 +20,8 @@
     "Redux/Samples~/**/*",
     "package.json",
     "package.json.meta",
-    "Redux.meta"
+    "Redux.meta",
+    "Redux/Runtime.meta"
   ],
 
   "samples": [
