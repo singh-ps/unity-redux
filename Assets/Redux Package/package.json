@@ -2,29 +2,34 @@
   "name": "com.singh-ps.unity-redux",
   "version": "1.0.0",
   "displayName": "Unity Redux",
-  "description": "A lightweight Redux implementation for Unity projects with R3 reactive extensions support",
+  "description": "A small Redux-style state machine for Unity",
   "unity": "2022.3",
-  "unityRelease": "50f1",
-  "documentationUrl": "https://github.com/singh-ps/unity-redux#readme",
-  "licensesUrl": "https://github.com/singh-ps/unity-redux/blob/main/LICENSE",
-  "license": "MIT",
   "keywords": [
     "redux",
-    "state management",
-    "reactive",
-    "r3",
-    "unity",
-    "architecture"
+    "state",
+    "flux"
   ],
   "author": {
-    "name": "singh-ps",
-    "url": "https://github.com/singh-ps"
+    "name": "Pushpinder Singh",
+    "email": "you@example.com",
+    "url": "https://github.com/singh-ps/unity-redux"
   },
+
+  // Only include the folders you ship:
+  "files": [
+    "Redux/Runtime/**/*",
+    "Redux/Samples~/**/*",
+    "package.json"
+  ],
+
+  // Declare your optional samples:
   "samples": [
     {
-      "displayName": "Game State Example",
-      "description": "A complete example showing Redux state management with game state, score tracking, health system, and reactive programming patterns using R3.",
-      "path": "Samples~/GameStateExample"
+      "displayName": "Redux Example Usage",
+      "description": "Sample scenes and scripts showing how to wire up the Redux store",
+      "path": "Redux/Samples~"
     }
-  ]
+  ],
+
+  "dependencies": {}
 }
