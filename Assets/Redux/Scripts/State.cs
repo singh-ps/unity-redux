@@ -1,23 +1,27 @@
 using R3;
 
-public interface IState<TState>
+namespace Redux
 {
-	BehaviorSubject<TState> StateSubject { get; }
-	TState Value { get; set; }
-}
-
-public class State<TState> : IState<TState>
-{
-	private BehaviorSubject<TState> stateSubject;
-	public State(TState initialState)
+	public class State<TState>
 	{
-		stateSubject = new BehaviorSubject<TState>(initialState);
-	}
+		private readonly BehaviorSubject<TState> stateSubject;
+		public State(TState initialState)
+		{
+			stateSubject = new BehaviorSubject<TState>(initialState);
+		}
 
-	public BehaviorSubject<TState> StateSubject => stateSubject;
+		public Observable<TState> Observable {
+			get => stateSubject;
+		}
 
-	public TState Value {
-		get => stateSubject.Value;
-		set => stateSubject.OnNext(value);
+		public TState Value {
+			get => stateSubject.Value;
+			set => stateSubject.OnNext(value);
+		}
+
+		public void Dispose()
+		{
+			stateSubject.Dispose();
+		}
 	}
 }
