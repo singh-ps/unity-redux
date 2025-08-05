@@ -15,14 +15,12 @@
     "url": "https://github.com/singh-ps/unity-redux"
   },
 
-  // Only include the folders you ship:
   "files": [
     "Redux/Runtime/**/*",
     "Redux/Samples~/**/*",
     "package.json"
   ],
 
-  // Declare your optional samples:
   "samples": [
     {
       "displayName": "Redux Example Usage",
