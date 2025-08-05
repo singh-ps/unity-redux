@@ -1,0 +1,36 @@
+{
+  "name": "com.singh-ps.unity-redux",
+  "version": "1.0.0",
+  "displayName": "Unity Redux",
+  "description": "A small Redux-style state machine for Unity",
+  "unity": "2022.3",
+  "keywords": [
+    "redux",
+    "state",
+    "flux"
+  ],
+  "author": {
+    "name": "Pushpinder Singh",
+    "email": "pushpindersingh89@hotmail.com",
+    "url": "https://github.com/singh-ps/unity-redux"
+  },
+
+  "files": [
+    "Redux/Runtime/**/*",
+    "Redux/Samples~/**/*",
+    "package.json",
+    "package.json.meta",
+    "Redux.meta",
+    "Redux/Runtime.meta"
+  ],
+
+  "samples": [
+    {
+      "displayName": "Redux Example Usage",
+      "description": "Sample scenes and scripts showing how to wire up the Redux store",
+      "path": "Redux/Samples~"
+    }
+  ],
+
+  "dependencies": {}
+}

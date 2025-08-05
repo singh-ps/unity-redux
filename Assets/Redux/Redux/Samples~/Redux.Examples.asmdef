@@ -1,0 +1,16 @@
+{
+    "name": "Redux.Examples",
+    "rootNamespace": "Redux.Examples",
+    "references": [
+        "GUID:42c123955f76ae34a868c5fa8743c6e7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
