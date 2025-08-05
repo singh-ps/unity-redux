@@ -11,14 +11,16 @@
   ],
   "author": {
     "name": "Pushpinder Singh",
-    "email": "you@example.com",
+    "email": "pushpindersingh89@hotmail.com",
     "url": "https://github.com/singh-ps/unity-redux"
   },
 
   "files": [
     "Redux/Runtime/**/*",
     "Redux/Samples~/**/*",
-    "package.json"
+    "package.json",
+    "package.json.meta",
+    "Redux.meta"
   ],
 
   "samples": [
