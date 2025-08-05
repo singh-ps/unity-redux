@@ -17,7 +17,15 @@ This Unity Redux library brings the power of Redux state management to Unity, al
 ## Installation
 
 1. [**Install R3** using NuGetForUnity](https://github.com/Cysharp/R3?tab=readme-ov-file#unity)
-2. **Import the Redux folder** from this repository into your Unity project's Assets directory
+2. Open Package Manager window (Window | Package Manager)
+3. Click `+` button on the upper-left of a window, and select "Add package from git URL..."
+4. Enter the following URL and click `Add` button
+
+```
+https://github.com/singh-ps/unity-redux.git?path=/Assets/Redux
+```
+
+> **_NOTE:_** To install a concrete version you can specify the version by prepending #v{version} e.g. `#v1.0.0`. For more see [Unity UPM Documentation](https://docs.unity3d.com/Manual/upm-git.html).
 
 ## Quick Start
 
