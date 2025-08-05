@@ -1,0 +1,30 @@
+{
+  "name": "com.singh-ps.unity-redux",
+  "version": "1.0.0",
+  "displayName": "Unity Redux",
+  "description": "A lightweight Redux implementation for Unity projects with R3 reactive extensions support",
+  "unity": "2022.3",
+  "unityRelease": "50f1",
+  "documentationUrl": "https://github.com/singh-ps/unity-redux#readme",
+  "licensesUrl": "https://github.com/singh-ps/unity-redux/blob/main/LICENSE",
+  "license": "MIT",
+  "keywords": [
+    "redux",
+    "state management",
+    "reactive",
+    "r3",
+    "unity",
+    "architecture"
+  ],
+  "author": {
+    "name": "singh-ps",
+    "url": "https://github.com/singh-ps"
+  },
+  "samples": [
+    {
+      "displayName": "Game State Example",
+      "description": "A complete example showing Redux state management with game state, score tracking, health system, and reactive programming patterns using R3.",
+      "path": "Samples~/GameStateExample"
+    }
+  ]
+}
